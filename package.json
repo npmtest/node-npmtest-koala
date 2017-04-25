@@ -1,6 +1,6 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
-    "description": "#### test coverage for  [koala (v1.0.0)](https://github.com/koajs/koala#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-koala.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-koala) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-koala.svg)](https://travis-ci.org/npmtest/node-npmtest-koala)",
+    "description": "#### basic test coverage for  [koala (v1.0.0)](https://github.com/koajs/koala#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-koala.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-koala) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-koala.svg)](https://travis-ci.org/npmtest/node-npmtest-koala)",
     "devDependencies": {
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
         "koala": "*",

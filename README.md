@@ -1,6 +1,6 @@
 # npmtest-koala
 
-#### test coverage for  [koala (v1.0.0)](https://github.com/koajs/koala#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-koala.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-koala) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-koala.svg)](https://travis-ci.org/npmtest/node-npmtest-koala)
+#### basic test coverage for  [koala (v1.0.0)](https://github.com/koajs/koala#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-koala.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-koala) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-koala.svg)](https://travis-ci.org/npmtest/node-npmtest-koala)
 
 #### Koa Framework Suite
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-koala/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-koala/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-koala/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-koala/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-koala/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-koala/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-koala/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-koala/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-koala/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-koala/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-koala/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-koala/build/coverage.html/index.html)
 
@@ -123,7 +123,8 @@
         "test-cov": "NODE_ENV=test node node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha -- --reporter dot --timeout 2m --bail test/app/index.js",
         "test-travis": "NODE_ENV=test node node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha --report lcovonly -- --reporter dot --timeout 2m --bail test/app/index.js"
     },
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "bin": {}
 }
 ```
 
